@@ -1,1 +1,2 @@
-"C:\\Octave\\Octave-5.2.0\\mingw64\\bin\\octave-cli.exe" src\\Driver.m
+cd src
+"C:\\Octave\\Octave-5.2.0\\mingw64\\bin\\octave-cli.exe" Driver.m
