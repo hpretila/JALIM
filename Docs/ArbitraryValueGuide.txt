@@ -1,0 +1,4 @@
+The code uses the following arbitrary values.
+
+char (182) - LINEBREAKS
+char (187) - SPACES

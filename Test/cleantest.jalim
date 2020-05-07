@@ -1,0 +1,9 @@
+void main () {
+    fprintf ("Test 1 passed. FUNCTIONS AND STANDARD METHOD IMPLEMENTED.");
+
+    if ("cake" == "cake") {
+        fprintf ("Test 2 Conditionals. FUNCTIONS AND STANDARD METHOD IMPLEMENTED.");
+    }
+}
+
+main (); //EDGE

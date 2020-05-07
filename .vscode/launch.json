@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "type": "OctaveDebugger",
+            "request": "launch",
+            "name": "Launch Driver",
+            "program": "Driver.m",
+            "octave": "C:\\Octave\\Octave-5.2.0\\mingw64\\bin\\octave-cli.exe",
+            "sourceFolder": "${workspaceFolder}",
+            "autoTerminate": true
+        },
+        {
+            "type": "OctaveDebugger",
+            "request": "launch",
+            "name": "Launch JalimCLI",
+            "program": "JalimCLI.m",
+            "octave": "C:\\Octave\\Octave-5.2.0\\mingw64\\bin\\octave-cli.exe",
+            "sourceFolder": "${workspaceFolder}",
+            "autoTerminate": true
+        },
+        {
+            "type": "OctaveDebugger",
+            "request": "launch",
+            "name": "Debug JalimCLI",
+            "program": "JalimCLIDebug.m",
+            "octave": "C:\\Octave\\Octave-5.2.0\\mingw64\\bin\\octave-cli.exe",
+            "sourceFolder": "${workspaceFolder}",
+            "autoTerminate": true
+        },
+        {
+            "type": "OctaveDebugger",
+            "request": "launch",
+            "name": "Execute current file.",
+            "program": "${relativeFile}",
+            "octave": "C:\\Octave\\Octave-5.2.0\\mingw64\\bin\\octave-cli.exe",
+            "sourceFolder": "${workspaceFolder}",
+            "autoTerminate": true
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+void main () {
+    // TEST 1, THIS METHOD BEING CALLED
+    printf ("Test (1) passed. FUNCTIONS AND STANDARD METHOD IMPLEMENTED.");
+
+    // TEST 2, CONDITIONALS LIKE THIS
+    if ("cake" == "cake") {
+        printf ("Test (2) passed. CONDITIONALS AND OPERATIONS IMPLEMENTED.");
+    }
+
+    // TEST 3, ADDITION AND SUBTRACTION
+    int k = (3 + 3);
+    int l = (9 - 3);
+    if (k == l) {
+        printf ("Test (3) passed. ADDITION AND SUBTRACTION IMPLEMENTED.");
+    }
+
+    // TEST 4, RETURNABLE FUNCTIONS
+    int m = takeTwo(70);
+    if (m == 68) {
+        printf ("Test (4) passed. RETURNABLE FUNCTIONS AND DIGIT EQUATION IS IMPLEMENTED.");
+    }
+}
+
+int takeTwo (int i) {
+    int x = (i - 2);
+    return x;
+}
+
+main (); //EDGE

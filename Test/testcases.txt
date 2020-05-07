@@ -1,0 +1,8 @@
+testing         code                                                                    expected result         pass (Octave 5.2.0)     pass (MATLAB R2019a)
+initialisation  int x = 5; printf(x);                                                   5                       Y                       Y
+operations      int x = 5; x = x + 1; printf(x);                                        5                       Y                       Y
+standard io     printf ("Hello world!");                                                Hello world!            Y                       Y
+standard io     printf ("Salut!");                                                      Salut!                  Y                       Y
+functions       int triple (int x) {return (x * 3);} int o = triple (2); printf(o);     6                       Y                       Y
+conditionals    int x = 5; if (x == 5) {printf("Partayyyy");}                           Partayyyy               Y                       Y
+handling        int triple (int x) {return (x * 3);} int triple (int x) {}              <SyntaxError>           Y                       Y
