@@ -7,7 +7,7 @@ rmpath ("Helper");
 addpath ("HelperDebug");
 
 % INFORMATION
-fprintf (['Jalim 0.0.1b (May 4 2020, 16:59:59) :: Huey Pretila\n' ...
+fprintf (['Jalim 0.0.1b (May 8 2020, 01:02:31) :: Huey Pretila\n' ...
 'Type "leave" to end interpreter.\n']);
 
 % INITIALISE RUNTIME
